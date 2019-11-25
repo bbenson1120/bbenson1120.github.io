@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="hw3.css">
+</head>
+<body>
+	<h1>Homework Tracker</h1><br>
+
+		<div id="sign_out_container">
+			<h2 id="login_greeting"></h2>
+			<button id="user_sign_out_button">Sign Out</button><br><br>
+		</div>
+
+		<div id="display_insert_user_box_button_container">
+			<h2 id="home_header">Please sign in to see your assignments or create an account.</h2>
+			<button id="display_insert_user_box_button">Create Account</button>
+			<button id="display_user_sign_in_button">Sign In</button>	
+		</div>
+
+		<div id="sign_in_container">
+			<h2 id="sign_in_header">Please Sign In</h2>
+			<h2 id="sign_in_failure">Invalid login. Please try again.</h2>
+
+			<label>Email:</label>
+			<input type="text" id="sign_in_email_field"><br><br>
+
+			<label>Password:</label>
+			<input type="password" name="pin" id="sign_in_password_field"><br><br>
+
+			<button id="sign_in_submit_button">Submit</button>
+			<button id="back_from_sign_in_button">Go Back</button>
+		</div>
+
+		<div id="list_container">
+			<h2 id="list_title">My List of Assignments:</h2>
+			<h3 id="display_insert_box_button_title">Need to insert a new assignment?</h3>
+			<button id="display_insert_box_button">INSERT NEW ASSIGNMENT</button>
+			<ol id="db"></ol>
+		</div>
+
+		<div id="user_list_container">
+			<h2 id="user_list_title">My List of Users:</h2>
+			<ol id="user_db"></ol>
+		</div>
+
+		<div id="session_list_container">
+			<h2 id="session_list_title">My List of Sessions:</h2>
+			<ol id="session_db"></ol>
+		</div>
+		
+		<div id="edit_container">
+			<h2 id="edit_box_title">Edit This Assignment<br>Fill in the fields</h2>
+			<label>Course:</label>
+			<input required type="text" id="course_field_edit" ><br><br>
+
+			<label>Title:</label>
+			<input required type="text" id="title_field_edit" ><br><br>
+
+			<label>Description:</label>
+			<input required type="text" id="description_field_edit" ><br><br>
+
+			<label>Assigned:</label>
+			<input required type="text" id="assigned_field_edit" ><br><br>
+
+			<label>Due:</label>
+			<input required type="text" id="due_field_edit" ><br><br>
+
+			<label>Estimate:</label>
+			<input required type="text" id="estimate_field_edit" ><br><br>
+
+			<label>Status:</label>
+			<input required type="text" id="status_field_edit" ><br><br>
+
+			<button id="save">Save Changes</button><br><br>
+
+			<button id="back_from_edit">Go To List</button><br>
+		</div>
+
+		<div id="insert_container">
+			<h2 id="insert_box_title">Insert New Assignment<br>Fill in every field</h2>
+			<label>Course:</label>
+			<input required type="text" id="course_field" ><br><br>
+
+			<label>Title:</label>
+			<input required type="text" id="title_field" ><br><br>
+
+			<label>Description:</label>
+			<input required type="text" id="description_field" ><br><br>
+
+			<label>Assigned:</label>
+			<input required type="text" id="assigned_field" ><br><br>
+
+			<label>Due:</label>
+			<input required type="text" id="due_field" ><br><br>
+
+			<label>Estimate:</label>
+			<input required type="text" id="estimate_field" ><br><br>
+
+			<label>Status:</label>
+			<input required type="text" id="status_field" ><br><br>
+
+			<button id="add">Add Assignment</button><br><br>
+
+			<button id="back_from_insert">Go To List</button><br>
+		</div>
+
+		<div id="insert_user_container">
+			<h2 id="insert_user_container_title">Create New User<br>Must fill out all fields.</h2>
+			<label>First Name:</label>
+			<input type="text" id="first_name_field"><br><br>
+
+			<label>Last Name:</label>
+			<input type="text" id="last_name_field"><br><br>
+
+			<h3 id="duplicate_email">Please choose another email, this one is already taken.</h3>
+			<label>Email:</label>
+			<input type="text" id="email_field"><br><br>
+
+			<label>Password:</label>
+			<input type="password" name="pin" id="enc_password_field"><br><br>
+
+			<button id="create_user">Create User</button>
+
+			<button id="back_from_insert_user">Go Back</button>
+			
+		</div>
+	
+	
+	<script type="text/javascript" src="user.js"></script>
+	<script type="text/javascript" src="hw3.js"></script>
+</body>
+</html>

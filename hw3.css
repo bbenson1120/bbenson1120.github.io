@@ -1,0 +1,180 @@
+body {
+	background-color: gray;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	width: 450px;
+	margin: auto;
+	-webkit-text-stroke: 2px black;
+	font-size: 50px;
+	font-style: italic;
+}
+button {
+	-webkit-text-stroke: 0.5px black;
+	color: black;
+	padding-left: 10px;
+	background-color: gold;
+	font-size: medium;
+}
+input {
+	width: 250px;
+	font-size: large;
+}
+label {
+	-webkit-text-stroke: 0.5px red;
+	font-style: bold;
+	font-size: x-large;
+	color: black;
+}
+ol {
+	border-top: blue solid 2px;
+	-webkit-text-stroke: 1px red;
+}
+li {
+	color: black;
+}
+#display_insert_user_box_button_container {
+	background-image: url("homebook.jpg");
+	background-size: cover;
+	width: auto;
+	height: 600px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	padding-top: 75px;
+}
+#home_header {
+	color: gold;
+	font-size: 40px;
+	-webkit-text-stroke: 2px black;
+}
+#display_insert_user_box_button {
+	margin: auto;
+}
+#duplicate_email {
+	font-size: x-large;
+	color: red;
+	display: none;
+}
+#display_user_sign_in_button{
+
+}
+#login_greeting {
+	margin: auto;
+	display: none;
+}
+#user_sign_out_button {
+	margin: auto;
+	display: none;
+}
+#insert_user_container_title {
+	font-size: xx-large;
+	-webkit-text-stroke: 0.5px gold;
+}
+#insert_user_container {
+	padding-top: 100px;
+	background-image: url("laptop3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	text-align: center;
+	width: auto;
+	height: 600px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;	
+}
+#sign_in_header {
+	font-size: xx-large;
+	-webkit-text-stroke: 0.5px gold;
+}
+#sign_in_container {
+	padding-top: 100px;
+	background-image: url("laptop4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	text-align: center;
+	width: auto;
+	height: 600px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+}
+#sign_in_failure {
+	color: red;
+	font-size: x-large;
+	display: none;
+}
+#user_list_container {
+	background-color: tan;
+	background-size: cover;
+	font-size: x-large;
+	text-align: center;
+	color: black;
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	display: none;
+}
+#session_list_container {
+	display: none;
+}
+#list_container {
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: x-large;
+	text-align: center;
+	color: black;
+	width: auto;
+	height: 600px;
+	margin: auto;
+	border: blue solid 2px;
+	display: none;
+}
+#insert_container {
+	background-image: url("book.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	text-align: center;
+	padding-left: 10px;
+	width: auto;
+	height: 600px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+}
+#edit_container {
+	background-image: url("beach-books.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	text-align: center;
+	width: auto;
+	height: 600px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+}
+#list_title {
+	font-style: italic;
+	
+	margin-top: 0px;
+	border-bottom: solid blue 2px;
+}
+#edit_box_title {
+	
+	margin-top: 0px;
+	border-bottom: solid black 3px;
+}
+#display_insert_box_button {
+	margin: auto;
+	font-size: large;
+
+}
+
